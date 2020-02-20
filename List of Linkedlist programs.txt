@@ -1,0 +1,61 @@
+// LinkedList practice programs
+
+1. To create a linked list
+	[Hint: LinkedList<String> games = new LinkedList<String>()]
+2. To iterate through all elements in a linked list
+	[Hint: for(String ele : games) print(ele)]
+3. To iterate through all elements in a linked list at a specified position
+	[Hint: Create a list iteration - ListIterator<String i> = games.listIterator(1), check i.hasNext(), print i.next()]
+4. To iterate a linked list in reverse order
+	[Hint: Create an iterator - Iterator i = games.descendingIterator(), check i.hasNext(), print i.next()]
+5. To insert the specified element at the specified position
+	[Hint: games.add(2,"Tennis"]
+6. To insert elements into the linkedlist at the first and last position
+	[Hint: addFirst("game1"), addLast("game10")]
+7. To insert the specified element at the front of a linked
+	[Hint: offerFirst("game1")
+8. To insert the specified element at the end of a linked list
+	[Hint: offerLast("game10")]
+9. To insert some elements at the specified position into a linked list
+	[Hint: Create two lists, list1.addAll(indes, list2)]
+10. To get the first and last element in a linked list
+	[Hint: list.getFirst(), list.getLast()]
+11. To display elements and their positions
+	[Hint: iterate the linkedlist, list.get(i)]
+12. To remove a specified element from a linked list.
+	[Hint: list.remove(index)]
+13. To remove first and last element in a linked list
+	[Hint: list.removeFirst(), list.removeLast()]
+14. To remove all elements from a linked list
+	[Hint: list.clear()]
+15. To swap two elements in an linked list
+	[Hint: Collections.swap(games, 0, 2)]
+16. To shuffle the elements in a linked list
+	[Hint: Collections.shuffle(games)]
+17. To join two linked lists
+	[Hint: list3.addAll(list1), list3.addAll(list2)]
+18. To clone an linked list to another 
+	[Hint: LinkedList<String> newgames = (LinkedList)games.clone()]
+19. To remove and return the first element of a linked list
+	[Hint: games.pop()]
+20. To retrieve but does not remove, the first element of a linked list
+	[Hint: games.peekFirst()]
+21. To retrieve but does not remove, the last element of a linked list
+	[Hint: games.peekLast()]
+22. To check if a particular element exists in a linked list
+	[Hint: if(games.contains("hockey")..]
+23. To convert a linked list to array list
+	[Hint: ArrayList<String> newlist = new ArrayList<String>(list)]
+24. To compare two linked list
+	[Hint: for(String e : list1) list3.add(list2.contains(ele)?"Yes","No")]
+25. To test an linked list is empty or not
+	[Hint: list.isEmpty()]
+26. To replace an element in a linked list
+	[Hint: list.set(2,"Tennis")]
+
+
+
+
+
+
+
